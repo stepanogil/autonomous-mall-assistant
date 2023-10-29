@@ -1,13 +1,13 @@
 # Autonomous Mall Assistant
----
+
 
 ## Description
----
+
 `autonomous-mall-assistant` is an AI-powered mall assistant designed to help shoppers easily locate stores within a shopping mall. The system utilizes a Large Language Model (LLM) to understand user queries and provide precise information or alternative suggestions.
 
 
 ## How it Works
----
+
 
 1. User interacts with the chat interface to ask about a specific store or retail category.
 2. The LLM identifies the `store name` and `retail category` from the user's query.
@@ -17,13 +17,13 @@
 
 
 ## Demo
----
+
 
 ![Alt text](image-1.png)
 
 
 ## Tech Stack
----
+
 
 - GPT-4
 - LangChain
@@ -31,7 +31,7 @@
 
 
 ## Installation
----
+
 
 ```bash
 1. clone this repo
