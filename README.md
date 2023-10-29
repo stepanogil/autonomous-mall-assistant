@@ -17,7 +17,11 @@
 
 
 ## Demo
+Stores Database - stored as a pandas dataframe but you should be able to use any other DBs (e.g. SQL/NoSQL) as long as you can wrap it into a function.
 
+![Alt text](image.png)
+
+Q and A with the Assistant
 
 ![Alt text](image-1.png)
 
