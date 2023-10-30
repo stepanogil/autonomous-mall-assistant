@@ -19,11 +19,13 @@
 ## Demo
 Stores Database - stored as a pandas dataframe but you should be able to use any other DBs (e.g. SQL/NoSQL) as long as you can wrap it into a function.
 
-![Alt text](image.png)
+![Alt text](image-3.png)
 
-Q and A with the Assistant
+### Q and A with the Assistant
+Note: more examples in autonomous-mall-assistant.ipynb
 
-![Alt text](image-1.png)
+
+![Alt text](image-2.png)
 
 
 ## Tech Stack
