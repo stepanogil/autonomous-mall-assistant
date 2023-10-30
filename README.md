@@ -19,13 +19,17 @@
 ## Demo
 Stores Database - stored as a pandas dataframe but you should be able to use any other DBs (e.g. SQL/NoSQL) as long as you can wrap it into a function.
 
-![Alt text](image-3.png)
+![!\[Alt text\](image-3.png)](img/image-3.png)
 
 ### Q and A with the Assistant
 Note: more examples in autonomous-mall-assistant.ipynb
 
 
-![Alt text](image-2.png)
+![!\[Alt text\](image-2.png)](img/image-2.png)
+
+## Roadmap
+
+- Add mall promotions to the output
 
 
 ## Tech Stack
@@ -42,7 +46,19 @@ Note: more examples in autonomous-mall-assistant.ipynb
 ```bash
 1. clone this repo
 2. pip install requirements.txt
-3. run autonomous-mall-assistant.ipynb
+3.1 run autonomous-mall-assistant.ipynb OR
+3.2 cd to streamlit_frontend and run `streamlit run app.py` in terminal
+```
 
+### Author
+---
+
+#### Stephen Bonifacio
+
+Feel free to connect with me on:
+
+Linkedin: https://www.linkedin.com/in/stephenbonifacio/  
+Twitter: https://twitter.com/Stepanogil  
 
 Notice: README.md created with help from ChatGPT
+
