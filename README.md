@@ -29,7 +29,7 @@ Note: more examples in autonomous-mall-assistant.ipynb
 
 ## Roadmap
 
-- Add mall promotions to the output
+- Add mall wide events/promotions to the output
 
 
 ## Tech Stack
