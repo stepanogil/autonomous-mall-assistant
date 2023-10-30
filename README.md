@@ -38,6 +38,8 @@ Note: more examples in autonomous-mall-assistant.ipynb
 - GPT-4
 - LangChain
 - pandas
+- streamlit
+- streamlit-chat
 
 
 ## Installation

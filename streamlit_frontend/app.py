@@ -2,6 +2,8 @@ import streamlit as st
 import random
 from backend import chat
 from streamlit_chat import message
+#from st_chat_message import message
+
 
 # Streamlit app
 st.header("Mall Assistant Chatbot")
