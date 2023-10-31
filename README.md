@@ -30,6 +30,7 @@ Note: more examples in autonomous-mall-assistant.ipynb
 ## Roadmap
 
 - Add mall wide events/promotions to the output
+- Handling of multiple stores/categories in user input
 
 
 ## Tech Stack
@@ -52,8 +53,16 @@ Note: more examples in autonomous-mall-assistant.ipynb
 3.2 cd to streamlit_frontend and run `streamlit run app.py` in terminal
 ```
 
-### Author
----
+## Contributing
+
+...is welcome! 🤗
+
+## Developer Notes
+
+Placeholder
+
+## Author
+
 
 #### Stephen Bonifacio
 

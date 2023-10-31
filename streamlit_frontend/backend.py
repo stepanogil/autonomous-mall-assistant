@@ -1,7 +1,9 @@
-#MODIFICATIONS to account for streamlit's rendering capabilities:
-# LLM not asked to use html or bullet points.
-# Few shot prompt removed.
-# Removed Ipython.display HTML in chat output
+# NOTE: I'm building using the jupyter notebook primarily (autonommous-mall-assistant.ipynb). 
+# This file is just a copy of that and is meant to be used with streamlit. This file might not be updated as often. 
+# It has some modifications to account for streamlit's rendering capabilities:
+# - LLM not asked to use html or bullet points.
+# - Few shot prompt removed.
+# - Removed Ipython.display HTML in chat output
 
 import os
 import openai
