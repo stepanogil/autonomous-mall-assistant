@@ -72,7 +72,11 @@ Placeholder
 Feel free to connect with me on:
 
 Linkedin: https://www.linkedin.com/in/stephenbonifacio/  
-Twitter: https://twitter.com/Stepanogil  
+Twitter: https://twitter.com/Stepanogil
 
-Notice: README.md created with help from ChatGPT
+Did you find this repo useful? If you'd like to show some love, I won't say no to a cup of coffee! 🤗
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q6QPABZ)
+
+
 
