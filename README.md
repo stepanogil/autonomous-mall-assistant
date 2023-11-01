@@ -30,7 +30,9 @@ Note: more examples in autonomous-mall-assistant.ipynb
 ## Roadmap
 
 - Add mall wide events/promotions to the output
-- Handling of multiple stores/categories in user input
+- Define handling of multiple stores/categories in user input
+- (longish-term) Breakdown the single search_store function into their respective retail category functions to handle category specific queries (e.g. sports - "Does nike sell football boots?", food - "Which restaurants offer halal food?")
+- (longish-term) Utilize a better database that can scale better (e.g. managed db offerings from Azure, AWS etc)
 
 
 ## Tech Stack
