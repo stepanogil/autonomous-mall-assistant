@@ -31,8 +31,9 @@ Note: more examples in autonomous-mall-assistant.ipynb
 
 - Add mall wide events/promotions to the output
 - Define handling of multiple stores/categories in user input
-- (longish-term) Breakdown the single search_store function into their respective retail category functions to handle category specific queries (e.g. sports - "Does nike sell football boots?", food - "Which restaurants offer halal food?")
+- (longish-term) Breakdown the single search_store function into their respective retail category functions to handle targeted queries (e.g. sports - "Does nike sell football boots?", food - "Which restaurants offer halal food?")
 - (longish-term) Utilize a better database that can scale better (e.g. managed db offerings from Azure, AWS etc)
+- (longish-term) add gpt4 tool/function for complex queries requiring reasoning ability.
 
 
 ## Tech Stack
