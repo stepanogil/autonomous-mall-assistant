@@ -30,7 +30,9 @@ Note: more examples in autonomous-mall-assistant.ipynb
 ## Roadmap
 
 - Add mall wide events/promotions to the output
+- Add mall general info like opening hours; exceptions to the scheds because of special holidays etc
 - Define handling of multiple stores/categories in user input
+- Incorporate some guardrail mechanism e.g. nemo guardrails
 - (longish-term) Breakdown the single search_store function into their respective retail category functions to handle targeted queries (e.g. sports - "Does nike sell football boots?", food - "Which restaurants offer halal food?")
 - (longish-term) Utilize a better database that can scale better (e.g. managed db offerings from Azure, AWS etc)
 - (longish-term) add gpt4 tool/function for complex queries requiring reasoning ability.
@@ -74,7 +76,7 @@ Feel free to connect with me on:
 Linkedin: https://www.linkedin.com/in/stephenbonifacio/  
 Twitter: https://twitter.com/Stepanogil
 
-Did you find this repo useful? If you'd like to show some love, I won't say no to a cup of coffee! 🤗
+Did you find this useful? If you'd like to show some love, I won't say no to a cup of coffee! 🤗
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q6QPABZ)
 
