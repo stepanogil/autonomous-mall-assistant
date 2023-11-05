@@ -19,7 +19,7 @@
 ## Demo
 Stores Database - stored as a pandas dataframe but you should be able to use any other DBs (e.g. SQL/NoSQL) as long as you can wrap it into a function.
 
-![!\[Alt text\](image-3.png)](img/image-3.png)
+![Alt text](img/stores_mall_event.png)
 
 ### Q and A with the Assistant
 Note: more examples in autonomous-mall-assistant.ipynb
@@ -27,15 +27,19 @@ Note: more examples in autonomous-mall-assistant.ipynb
 
 ![!\[Alt text\](image-2.png)](img/image-2.png)
 
+Mentions mall wide events, if any.
+
+![Alt text](image.png)
+
 ## Roadmap
 
-- Add mall wide events/promotions to the output
-- Add mall general info like opening hours; exceptions to the scheds because of special holidays etc
-- Define handling of multiple stores/categories in user input
-- Incorporate some guardrail mechanism e.g. nemo guardrails
-- (longish-term) Breakdown the single search_store function into their respective retail category functions to handle targeted queries (e.g. sports - "Does nike sell football boots?", food - "Which restaurants offer halal food?")
-- (longish-term) Utilize a better database that can scale better (e.g. managed db offerings from Azure, AWS etc)
-- (longish-term) add gpt4 tool/function for complex queries requiring reasoning ability.
+- ~~Add mall wide events/promotions to the output~~ - Completed on [2023-11-05]
+- Add mall general info like opening hours; exceptions to the scheds because of special holidays, etc.
+- Define handling of multiple stores/categories in user input.
+- Incorporate some guardrail mechanism e.g., nemo guardrails.
+- (longish-term) Breakdown the single `search_store` function into their respective retail category functions to handle targeted queries (e.g., sports - "Does Nike sell football boots?", food - "Which restaurants offer halal food?")
+- (longish-term) Utilize a better database that can scale better (e.g., managed DB offerings from Azure, AWS, etc.)
+- (longish-term) Add GPT-4 tool/function for complex queries requiring reasoning ability.
 
 
 ## Tech Stack
@@ -64,7 +68,7 @@ Note: more examples in autonomous-mall-assistant.ipynb
 
 ## Developer Notes
 
-Placeholder
+- **[2023-11-05]**: Implemented `Chat History` feature to maintain conversation context. Since LLM API interactions are stateless, this enhancement captures and sends the entire history of user-AI exchanges alongside the current user query, enabling the LLM to generate contextually relevant responses.
 
 ## Author
 
